@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Document</title>
+</head>
+<body>
+  <header class="header">
+    <div class="header-actions">
+      <div class="header-actions-checks">
+          <label class="checkbox">
+              <input type="checkbox">
+              Скрыть невыбранное
+            </label>
+          <label class="checkbox">
+              <input type="checkbox">
+              Учтено
+            </label>
+          <label class="checkbox">
+              <input type="checkbox">
+              Не учтено
+            </label>
+      </div>
+      <div class="header-actions-btns">
+        <button class="btn">
+          Выход
+        </button>
+      </div>
+    </div>
+    <ul class="header-nav">
+      <li>Модель</li>
+      <li>Папки</li>
+      <li>Рассчет</li>
+    </ul>
+  </header>
+  <main class="main">
+    <div class="columns">
+      <div class="column left-tree">
+        <ul class="tree">
+          <li>
+            <a href="" class="opened">Каркас несущий</a>
+            <ul class="tree">
+              <li><a href="">Наружная стеновая панель</a> </li>
+              <li><a href="">Наружная стеновая панель - левая</a> </li>
+              <li><a href="">Наружная стеновая панель - правая</a> </li>
+              <li><a href="">Стеновая панель</a> </li>
+            </ul>
+          </li>
+          <li><a href="">Несущая арматура</a> </li>
+          <li><a href="">Обобщенные модели</a> </li>
+          <li><a href="">Окна</a> </li>
+        </ul>
+      </div>
+      <div class="column center-tree">
+        <div class="buttons">
+          <button class="btn">+</button>
+          <button class="btn">+</button>
+          <button class="btn">+</button>
+          <button class="btn">+</button>
+          <button class="btn">+</button>
+        </div>
+        <h4>Папки</h4>
+        <ul class="tree mb">
+          <li>
+            <a href="" class="opened">Лестницы</a>
+            <ul class="tree">
+              <li><a href="">Выше нулевой отметки</a></li>
+            </ul>
+            <label class="checkbox">
+                <input type="checkbox">
+                Отверстие в стене
+              </label>
+          </li>
+          <li>
+            <a href="" class="opened">Окна</a>
+            <label class="checkbox">
+                <input type="checkbox">
+                Отверстие в стене
+              </label>
+          </li>
+          <li>
+            <a href="">Перекрытия_В25</a>
+          </li>
+        </ul>
+        <div class="buttons">
+            <button class="btn">+</button>
+            <button class="btn">+</button>
+            <button class="btn">+</button>
+            <button class="btn">+</button>
+            <button class="btn">+</button>
+          </div>
+      </div>
+      <div class="column fields">
+        <div class="field">
+          <div class="field-title">
+            <h4>Правило</h4>
+            <div class="counter">
+              5 из 5
+            </div>
+          </div>
+          <textarea rows="5"></textarea>
+        </div>
+        <div class="field">
+          <h4>Формула</h4>
+          <textarea rows="4"></textarea>
+        </div>
+        <div class="result">
+          <span class="result-text">Результат: 5</span>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="btn">Сохранить</button>
+    <button class="btn">Загрузить</button>
+    <button class="btn">Экспорт</button>
+    <label class="checkbox">
+        <input type="checkbox">
+        Не выгружать элементы
+      </label>
+  </footer>
+</body>
+</html>

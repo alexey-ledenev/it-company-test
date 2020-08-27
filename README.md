@@ -1,3 +1,3 @@
-# it-company-test
+# HTML/CSS Test Task
 
-https://rayzstar4eg.github.io/it-company-test/
+https://alexey-ledenev.github.io/it-company-test/
